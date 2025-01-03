@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="build.css" />
+    <title>Base Apparel coming soon page</title>
+  </head>
+  <body
+    class="font-josefin bg-gradient bg-gradient-to-br from-gradient_1 to-gradient_2 w-full"
+  >
+    <div class="md:flex md:flex-row-reverse md:w-[97%] mx-auto min-h-screen">
+      <div class="p-7 md:hidden">
+        <img class="w-28" src="./images/logo.svg" alt="" />
+      </div>
+      <div
+        class="md:basis-[40%] md:bg-[url('./images/hero-desktop.jpg')] md:bg-cover md:bg-center bg-no-repeat md:min-h-screen"
+      >
+        <img class="w-full md:hidden" src="./images/hero-mobile.jpg" alt="" />
+      </div>
+      <div class="container-2 md:basis-[60%] relative md:max-w-lg md:mx-auto md:p-4">
+        <div class="hidden md:block">
+          <img class="w-36" src="./images/logo.svg" alt="" />
+        </div>
+        <div class="text-center px-6 md:flex md:flex-col md:justify-center md:min-h-screen">
+          <div class="">
+            <h1
+              class="text-5xl mt-14 mb-7 uppercase tracking-widest font-normal"
+            >
+              <span class="block text-Desaturated_Red font-light">we're</span>
+              coming soon
+            </h1>
+            <p class="text-center text-[0.93rem] text-Desaturated_Red">
+              Hello fellow shoppers! We're currently building our new fashion
+              stare. Add your email below to stay up to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+          <div class="p-6 relative">
+            <input
+              class="border-Desaturated_Red border-[1px] w-full rounded-3xl p-[0.6rem] outline-none md:max-w-lg"
+              style="background-color: transparent !important"
+              type="email"
+              required
+              id="mail"
+              aria-labelledby="emailLabel"
+              placeholder="Email Address"
+            />
+            <div class="absolute top-[1.55rem] right-5 rounded-3xl cursor-pointer hover:shadow-2xl transition-all duration-500" id="btn">
+              <img
+                class="bg-gradient bg-gradient-to-br from-gradient_3 to-gradient_4 py-3 px-6 rounded-3xl flex items-center justify-center shadow-xl"
+                src="./images/icon-arrow.svg"
+                alt=""
+              />
+            </div>
+            <div class="absolute top-9 right-24 hidden" id="invalid-icon">
+              <img src="./images/icon-error.svg" alt="" />
+            </div>
+            <p class="text-[0.75rem] text-left mt-2 text-Soft_Red hidden" id="invalid"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
