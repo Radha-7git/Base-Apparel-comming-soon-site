@@ -6,11 +6,11 @@ A responsive "Coming Soon" page for Base Apparel, built using **HTML**, **CSS (T
 ## 📸 Previews
 
 ### Desktop View
-![Desktop View](./images/desktop-preview.png)  
+![Desktop View](./Screenshot/desktop.png)  
 
 
 ### Mobile View
-![Mobile View](./images/mobile-preview.png)  
+![Mobile View](./Screenshot/mobile.png)  
 
 
 ---
